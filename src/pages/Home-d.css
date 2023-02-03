@@ -1,0 +1,72 @@
+@media (min-width: 1024px) {
+  
+    #image-m{
+width: 25%;
+    }
+    #skills {
+        display: flex;
+        justify-content: space-around;
+        margin: auto;
+        flex-direction: row;
+        align-items: baseline;
+
+        flex-wrap: nowrap;
+    }
+
+    #skills h4 {
+        border: none;
+
+    }
+
+    #hard-skills {
+        border-style: solid;
+        border-left: 2px;
+        border-top: 0;
+        border-width: 2px;
+        border-bottom: 0;
+    }
+
+    #soft-skills {
+        padding: 12px;
+    }
+
+
+    .row {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 22px;
+
+    }
+
+    .half-input {
+        padding: 16px;
+
+    }
+
+    .msg-text {
+        font-size: 18px;
+        border: 1px solid #919191;
+        padding: 5px;
+        margin: auto;
+        margin-bottom: 15px;
+        margin-top: 3px;
+        border-radius: 10px;
+        display: flex;
+        width: 73%;
+    }
+
+    .send-btn {
+        border: 1px solid #919191;
+        display: block;
+        margin: auto;
+        cursor: pointer;
+        width: 20%;
+        transition: 0.5s;
+        padding: 10px 15px;
+        font-size: 18px;
+        border-radius: 10px;
+        font-weight: bold;
+    }
+
+
+}

@@ -1,0 +1,76 @@
+* {
+  font-family: poppins;
+}
+
+/* PROFILE */
+.links {
+  text-align: center;
+}
+
+#list {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+/* ABOUT ME SECTION */
+.image-container {
+  margin: auto;
+  max-width: 200px;
+}
+
+.image-container.img {
+  max-width: 200px;
+}
+
+/* PROFILE SECTION */
+#top-place {
+  background-color: #c4c4c4;
+}
+
+
+
+
+/* PROFILE SECTION */
+#profile {
+  background-image: url("/images/foto-fondo.jpg");
+}
+
+/* BURGUER BUTTOM */
+.links {
+  position: absolute;
+  top: -700px;
+  left: -2000px;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  transition: all .5s ease;
+}
+
+.links a {
+  cursor: po;
+  font-size: 1rem;
+  display: block;
+  color: #fff;
+  margin-top: 4px;
+}
+
+/* .burguer {
+        background-color: white;
+      } */
+.links.active {
+  width: 100%;
+  display: block;
+  margin: 0;
+  position: absolute;
+  margin-left: auto;
+  top: 0%;
+  background-color: black;
+}
+
+.links.active.a {
+
+  /* background-color: #c4c4c4; */
+  font-size: 19px;
+
+}

@@ -1,0 +1,97 @@
+@media(min-width: 768px) { 
+
+  .container {
+    margin-top: 2rem;
+  }
+
+  #image-m{
+    width: 30%;
+  }
+
+#skills {
+  text-align: center;
+  padding: 14px;
+  letter-spacing: 1px;
+  max-width: 50%;
+  margin: auto;
+} 
+
+ #tittle{
+  text-align: center;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #111135;
+  text-decoration: underline;
+  text-decoration-color: #b5a4a4;;
+  text-decoration-thickness: 5px;
+}
+
+#skills h4 {
+  border-bottom: 2px solid black;
+}
+  /* PROJECT SECTION*/
+  #projects {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  
+
+  #projects h4 {
+    border-bottom: 2px solid black;
+    max-width: 50%;
+    margin: auto;
+  }
+  #projects p{
+    display: flex;
+    flex-direction: column;
+  }
+  #img-conteiner{
+    width: 100%;
+  }
+  #img{
+    width: 70%;
+    cursor: pointer;
+    background: #c3c3c3c3;
+    padding: 1rem;
+    border-radius: 20px;
+}
+    
+  }
+  #contact{
+    display: flex;
+    flex-direction: column;;
+  }
+   #contact h3 {
+    max-width: 50%;
+    margin: auto;  }
+   
+   /* Contacto */
+  .half-input {
+    padding: 3px;
+    font-size: 18px;
+    margin: 3px;
+    margin-top: 3px;
+    width: 70%;
+    margin-bottom: 15px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid #919191;
+  }
+
+  .msg-text {
+    font-size: 18px;
+    border: 1px solid #919191;
+    padding: 5px;
+    margin: auto;
+    margin-bottom: 15px;
+    margin-top: 3px;
+    border-radius: 10px;
+    display: flex;
+    width: 70%;
+  }

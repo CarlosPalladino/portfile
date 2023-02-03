@@ -1,0 +1,161 @@
+/* ABOUT ME SECTION */
+.container {
+  margin-top: 2rem;
+  width: 100%;
+}
+
+#top-place {
+  background-color: #c4c4c4;
+}
+
+/* PROFILE SECTION */
+.profile {
+  background-image: url("/images/foto-fondo.jpg");
+  font-size: 18px;
+  background-position-x: reverse;
+  background-position-y: inherit;
+}
+
+.profile h2 {
+  color: #fff;
+  font-size: 38px;
+  letter-spacing: 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  align-content: flex-end;
+  flex-wrap: nowrap;
+}
+
+.profile h2 span {
+  color: #df2b2b;
+  margin: 0.7rem;
+}
+
+#image-conteiner-m {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+
+#image-m {
+  width: 50%;
+  background: #c3c3c3c3;
+  padding: 1rem;
+  border-radius: 20px;
+}
+
+.profile p {
+  color: #fff;
+  text-align: center;
+  margin: 22px;
+}
+
+.profile b {
+  color: #df2b2b;
+}
+
+/* PROJECT SECTION*/
+#projects {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+}
+#img{
+  width: 100%;
+  cursor: pointer;
+}
+
+#projects h4 {
+  border-bottom: 2px solid black;
+ width:  50%;
+}
+
+/* SKILLS */
+#skills {
+  display: flex;
+   flex-direction: column; 
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+
+
+
+#skills h4 {
+  border-bottom: 2px solid black;
+}
+
+#encabezado {
+  text-decoration: none;
+  text-decoration: none;
+  border-bottom: 2px solid #c4c4c4;
+}
+
+/* CONTACT ABOUT */
+#contact {
+  text-align: center;
+}
+
+#tittle {
+  text-align: center;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #111135;
+  text-decoration: underline;
+  text-decoration-color: #b5a4a4;
+  ;
+  text-decoration-thickness: 5px;
+}
+.form-container {
+  margin: 2px;
+}
+
+.half-input {
+  padding: 3px;
+  font-size: 18px;
+  margin: 3px;
+  margin-top: 3px;
+  width: 80%;
+  margin-bottom: 15px;
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+  border: 1px solid #919191;
+}
+
+.msg-text {
+  font-size: 18px;
+  border: 1px solid #919191;
+  padding: 5px;
+  margin: auto;
+  margin-bottom: 15px;
+  margin-top: 3px;
+  border-radius: 10px;
+  display: flex;
+  width: 80%;
+}
+
+.send-btn {
+  border: 1px solid #919191;
+  display: block;
+  margin: auto;
+  cursor: pointer;
+  transition: 0.5s;
+  padding: 10px 15px;
+  font-size: 18px;
+  width: 50%;
+
+  border-radius: 10px;
+  font-weight: bold;
+}

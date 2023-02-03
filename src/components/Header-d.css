@@ -1,0 +1,15 @@
+@media(min-width:1024px) {
+    .burger{
+      padding: 14px;
+      display: none;
+    }
+    .links{
+      position: inherit;
+      gap: 22px;
+      display: flex;
+      background-color: rgba(0,0,0,0.8);
+      align-items: baseline;
+      justify-content: center;
+cursor: pointer;
+    }
+}
