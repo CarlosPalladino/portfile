@@ -23,7 +23,6 @@
   color: #111135;
   text-decoration: underline;
   text-decoration-color: #b5a4a4;;
-  text-decoration-thickness: 5px;
 }
 
 #skills h4 {
@@ -45,7 +44,9 @@
     border-bottom: 2px solid black;
     max-width: 50%;
     margin: auto;
+    margin-top: 5rem;
   }
+
   #projects p{
     display: flex;
     flex-direction: column;
