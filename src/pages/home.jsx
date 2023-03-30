@@ -79,6 +79,7 @@ export default function App() {
               indispensable que es <b>Responsive</b></p>
             </figcaption>
           </figure>
+          
           <figure class="img-container">
             <a href="https://github.com/Esteban-Somoza/Grupo_1_Sanitarios"><img src="./images/Sanitarios-Nicuesa.png" id="img" />
             </a>

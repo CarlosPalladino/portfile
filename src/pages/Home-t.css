@@ -27,7 +27,31 @@
 
 #skills h4 {
   border-bottom: 2px solid black;
+}   .img-container {
+  position: relative;
+  display: inline-block;
+  margin-top: 2rem;
 }
+.img-container figcaption {
+  height: 100%;
+  position: absolute;
+  top: 50%;
+border-radius: 10px;
+  width: 72%;
+  align-items: center;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+.img-container:hover figcaption {
+  opacity: 1;
+
+}
+
   /* PROJECT SECTION*/
   #projects {
     display: flex;
