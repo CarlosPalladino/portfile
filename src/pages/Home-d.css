@@ -1,10 +1,10 @@
 @media (min-width: 1024px) {
-      .img-container {
+      .img-container{
         position: relative;
         display: inline-block;
       }
       .img-container figcaption {
-        height: 93%;
+        height: 70%;
         position: absolute;
         top: 50%;
         width: 72%;
