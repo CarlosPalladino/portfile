@@ -1,2 +1,2 @@
-# Portfolio Diseñado para poder mostrar proyectos 
+# Portfolio Diseñado para  mostrar proyectos 
 ## Full Stack | Backend 
