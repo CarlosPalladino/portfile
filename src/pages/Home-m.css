@@ -44,7 +44,6 @@
 #image-m {
   width: 50%;
   background: #c3c3c3c3;
-  padding: 1rem;
   border-radius: 20px;
 }
 
@@ -52,6 +51,7 @@
   color: #fff;
   text-align: center;
   margin: 22px;
+  font-size: 25px;
 }
 
 .profile b {

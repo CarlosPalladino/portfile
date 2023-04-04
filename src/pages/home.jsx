@@ -28,13 +28,13 @@ export default function App() {
               </span>
               Dev Full Stack </h2>
           </article>
-          <p>empecé en el mundo de desarrolo web en 2022 , con un curso brindando por <b>Digital Hoouse</b>,que me permitio
+          <p>empecé en el mundo de desarrolo web en 2022 , con un curso brindando por <b>Digital House</b>,que me permitio
             dar los
-            primeros pasos en el mundo del desarrollo web.
+            primeros pasos en el mundo It. En la actualidad , desarrolo proyecto y me sigo formando en el área <b>backend</b>
           </p>
         </article>
         <picture id="image-conteiner-m">
-          < img src="./images/foto-perfil.jpg" id="image-m" alt="foto" />
+          < img src="./images/foto-perfil.png" id="image-m" alt="foto" />
         </picture>
         {/* // <!-- HABILIDADES SECTION --> */}
         <div id="skills">
@@ -42,14 +42,19 @@ export default function App() {
             <h3 id="tittle">Habilidades Fuertes </h3>
             <h4>Backend</h4>
             <b>NodeJs</b>
+            <p></p>
+            <b>Python</b>
             <h4>Base De Datos</h4>
             <b>MySql</b>
+            <p></p>
+            <b>PostgreSql</b>
             <h4>ORM</h4>
             <b>Sequelize</b>
             <h4>Frontend</h4>
             <b>HTML/CSS/JS</b>
-
-            <p>Framework: <b>React Hooks</b></p>
+            <p>Framework: <b>React Hooks</b><p></p>
+              <b>Django</b>
+            </p>
             <h4>Herramientas</h4>
             <b>Git/GITHUB</b>
 
@@ -68,34 +73,45 @@ export default function App() {
         </div>
         {/* // <!-- ABOUT PROJECTS SECTION --> */}
 
-
-          <h3 id="tittle">MIS PROYECTOS</h3>
-
-
-
-
-        <article className="projects">
-
-
-
-         <figure className="img-container">
+        <h3 id="tittle">MIS PROYECTOS</h3>
+        <article className="projects" Id="projects">
+          <figure className="img-container">
             <a href="https://github.com/CarlosPalladino/Mercado-Liebre"> <img src="./images/Mercado-liebre.png" id="img" /> </a>
             <figcaption>
-            <h4>Mercado Liebre </h4>
-            <p>Este fue el primer acercamiento al mundo web utilicé <b>HTML, CSS </b> aprendí también lo
-              indispensable que es <b>Responsive</b></p>
+              <h4>Mercado Liebre </h4>
+              <p>Este fue el primer acercamiento al mundo web utilicé <b>HTML, CSS </b> aprendí también lo
+                indispensable que es <b>Responsive</b></p>
             </figcaption>
           </figure>
-          
+
           <figure className="img-container">
             <a href="https://github.com/Esteban-Somoza/Grupo_1_Sanitarios"><img src="./images/Sanitarios-Nicuesa.png" id="img" />
             </a>
-          <figcaption>
-            <h4> Sanitarios Nicuesa</h4>
-            <p> Es un E-COMERCE hecho en el marco de aprendizaje de digital House, utilizamos </p>
-            <p> <b> EJS,CSS,js</b>utilizamos la metodologia<b>SCRUM</b>para poder hacer las Daily Meeting
-            </p>
-          </figcaption>
+            <figcaption>
+              <h4> Sanitarios Nicuesa</h4>
+              <p> Es un E-COMERCE hecho en el marco de aprendizaje de digital House, utilizamos </p>
+              <p> <b> EJS,CSS,js</b>utilizamos la metodologia<b>SCRUM</b>para poder hacer las Daily Meeting
+              </p>
+            </figcaption>
+          </figure>
+
+          {/* <figure className="img-container">
+            <a href="https://github.com/CarlosPalladino/learning-Django--CRUD"><img src="./images/listado.png" id="img" />
+            </a>
+            <figcaption>
+              <h4> Jardines Burbuja </h4>
+              <p> Proyecto desarrollado bajo el entorno de <b>ID for Ideas</b> realizado desde el lado back con <b>Node.js</b> y la parte front,con <b>React</b></p>
+
+            </figcaption>
+          </figure> */}
+          <figure className="img-container">
+            <a href="https://github.com/CarlosPalladino/learning-Django--CRUD"><img src="./images/listado.png" id="img" />
+            </a>
+            <figcaption>
+              <h4> Listado</h4>
+              <p> Forma parte de un crud realizado en el framework <b> Django</b>  y  <b> Bostrap5</b></p>
+
+            </figcaption>
           </figure>
         </article>
       </div >
@@ -120,8 +136,8 @@ export default function App() {
         </article>
       </article >
       <Footer />
-  </>
+    </>
   )
-  }
+}
 
 
