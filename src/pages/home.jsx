@@ -97,33 +97,6 @@ export default function App() {
             </p>
           </figcaption>
           </figure>
-          <figure className="img-container">
-            <a href="https://github.com/CarlosPalladino/Mercado-Liebre"> <img src="./images/Mercado-liebre.png" id="img" /> </a>
-            <figcaption>
-            <h4>Mercado Liebre </h4>
-            <p>Este fue el primer acercamiento que tuve al mundo web , utilicé <b>HTML, CSS </b> aprendí también lo
-              indispensable que es <b>Responsive</b></p>
-            </figcaption>
-          </figure>
-          
-          <figure className="img-container">
-            <a href="https://github.com/Esteban-Somoza/Grupo_1_Sanitarios"><img src="./images/Sanitarios-Nicuesa.png" id="img" />
-            </a>
-          <figcaption>
-            <h4> Sanitarios Nicuesa</h4>
-            <p> Es un E-COMERCE hecho en el marco de aprendizaje de digital House, utilizamos </p>
-            <p> <b> EJS,CSS,js</b>utilizamos la metodologia<b>SCRUM</b>para poder hacer las Daily Meeting
-            </p>
-          </figcaption>
-          </figure>
-{/* 
-          <figcaption>
-            <h4>Jardines Burbuja</h4>
-            <p> este proyecto esta hecho bajo las practicas de <b>ID FOR IDEAS</b>, esta cuenta con<b>base de
-              datos</b>
-              hecha relacional y su front-end hecho en el Framework <b>React</b> </p>
-          </figcaption> */}
-
         </article>
       </div >
       {/* // <!-- CONTACT SECTION --> */}

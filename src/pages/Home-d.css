@@ -1,13 +1,15 @@
 @media (min-width: 1024px) {
-      .img-container{
+    .img-container {
         position: relative;
         display: inline-block;
-      }
-      .img-container figcaption {
+    }
+
+    .img-container figcaption {
         height: 70%;
         position: absolute;
-        top: 50%;
-        width: 72%;
+        top: 61%;
+        width: 73%;
+        border-radius: 20px;
         align-items: center;
         left: 50%;
         transform: translate(-50%, -50%);
@@ -16,16 +18,17 @@
         padding: 10px;
         opacity: 0;
         transition: opacity 0.3s ease-in-out;
-      }
-      .img-container:hover figcaption {
+    }
+
+    .img-container:hover figcaption {
         opacity: 1;
-    
-      }
+    }
 
 
-    #image-m{
+    #image-m {
         width: 25%;
     }
+
     #skills {
         display: flex;
         justify-content: space-around;
