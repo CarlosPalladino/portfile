@@ -22,7 +22,7 @@ export default function App() {
           {/* <!-- PROFILE SECTION --> */}
           <article className="name">
             <h2>Soy
-              <span>Carlos            </span>
+              <span>Carlos</span>
               <span>
                 Palladino
               </span>
@@ -35,7 +35,9 @@ export default function App() {
         </article>
         <picture id="image-conteiner-m">
           < img src="./images/foto-perfil.png" id="image-m" alt="foto" />
+          
         </picture>
+     
         {/* // <!-- HABILIDADES SECTION --> */}
         <div id="skills">
           <article id="hard-skills">
@@ -74,7 +76,7 @@ export default function App() {
         {/* // <!-- ABOUT PROJECTS SECTION --> */}
 
         <h3 id="tittle">MIS PROYECTOS</h3>
-        <article className="projects" Id="projects">
+        <article className="projects" id="projects">
           <figure className="img-container">
             <a href="https://github.com/CarlosPalladino/Mercado-Liebre"> <img src="./images/Mercado-liebre.png" id="img" /> </a>
             <figcaption>

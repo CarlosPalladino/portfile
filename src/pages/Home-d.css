@@ -3,9 +3,10 @@
         position: relative;
         display: inline-block;
     }
-
+      
+       
     .img-container figcaption {
-        height: 70%;
+        height: 75%;
         position: absolute;
         top: 61%;
         width: 73%;
