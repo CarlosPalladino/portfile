@@ -35,15 +35,17 @@ export default function App() {
         </article>
         <picture id="image-conteiner-m">
           < img src="./images/foto-perfil.png" id="image-m" alt="foto" />
-          
+
         </picture>
-     
+
         {/* // <!-- HABILIDADES SECTION --> */}
         <div id="skills">
           <article id="hard-skills">
             <h3 id="tittle">Habilidades Fuertes </h3>
             <h4>Backend</h4>
-            <b>NodeJs</b>
+            <b>C#</b>
+            <p></p>
+            <b>Node.Js</b>
             <p></p>
             <b>Python</b>
             <h4>Base De Datos</h4>
@@ -56,6 +58,8 @@ export default function App() {
             <b>HTML/CSS/JS</b>
             <p>Framework: <b>React Hooks</b><p></p>
               <b>Django</b>
+              <p></p>
+              <b>.Net Framework</b>
             </p>
             <h4>Herramientas</h4>
             <b>Git/GITHUB</b>
@@ -76,13 +80,14 @@ export default function App() {
         {/* // <!-- ABOUT PROJECTS SECTION --> */}
 
         <h3 id="tittle">MIS PROYECTOS</h3>
+
         <article className="projects" id="projects">
           <figure className="img-container">
             <a href="https://github.com/CarlosPalladino/Mercado-Liebre"> <img src="./images/Mercado-liebre.png" id="img" /> </a>
             <figcaption>
               <h4>Mercado Liebre </h4>
-              <p>Este fue el primer acercamiento al mundo web utilicé <b>HTML, CSS </b> aprendí también lo
-                indispensable que es <b>Responsive</b></p>
+              <p>Este fue el primer acercamiento al mundo web. Utilicé <b>HTML, CSS </b>  hecho 
+                <b>Responsive</b> siguiendo el metodo  Mobile Mobile</p>
             </figcaption>
           </figure>
 
@@ -91,8 +96,8 @@ export default function App() {
             </a>
             <figcaption>
               <h4> Sanitarios Nicuesa</h4>
-              <p> Es un E-COMERCE hecho en el marco de aprendizaje de digital House, utilizamos </p>
-              <p> <b> EJS,CSS,js</b>utilizamos la metodologia<b>SCRUM</b>para poder hacer las Daily Meeting
+              <p> Es un E-COMERCE hecho en el marco de aprendizaje de Digital House, utilizamos </p>
+              <p> <b> EJS,CSS,js</b>utilizamos la metodologia<b>SCRUM</b>para poder hacer las Daily Meeting y asignarnos items a realizar
               </p>
             </figcaption>
           </figure>
@@ -111,7 +116,7 @@ export default function App() {
             </a>
             <figcaption>
               <h4> Listado</h4>
-              <p> Forma parte de un crud realizado en el framework <b> Django</b>  y  <b> Bostrap5</b></p>
+              <p> Practica realizado en el framework <b> Django</b>  y  <b> Bostrap5</b></p>
 
             </figcaption>
           </figure>
@@ -120,7 +125,7 @@ export default function App() {
       {/* // <!-- CONTACT SECTION --> */}
       < article id="contact" >
         <h3 id="tittle">Contactame</h3>
-        <p>Podes llenar el formulario y, a la brevedad ,me voy a contactar con vos</p>
+        <p>Podes llenar el formulario y, a la brevedad ,Podemos charlar para realizar un proyecto en conjunto  </p>
         <article className="form-container">
 
           <form action="https://formsubmit.co/carlosezequielpalla@gmail.com" method="POST" target="_blank">
