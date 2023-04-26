@@ -37,7 +37,6 @@ export default function App() {
           < img src="./images/foto-perfil.png" id="image-m" alt="foto" />
 
         </picture>
-
         {/* // <!-- HABILIDADES SECTION --> */}
         <div id="skills">
           <article id="hard-skills">

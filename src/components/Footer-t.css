@@ -8,13 +8,14 @@ margin-top: 15px;
 #conteiner h3{
     text-align: center;
     color: white;
+    font-size: 1.5rem;
 }
 .contact{
 text-align: center; 
 justify-content: space-around;
     }
 #contacto{
-    width: 4%;
+    width: 12%;
     align-items: center;
     cursor: pointer;
     padding: 10px;
@@ -22,6 +23,6 @@ justify-content: space-around;
 #contacto-git{
     cursor: pointer;
     padding: 10px;
-    width: 4%;
+    width: 12%;
     border-radius: 50%;
 }
