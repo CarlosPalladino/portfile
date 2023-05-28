@@ -78,8 +78,8 @@ export default function App() {
         </div>
         {/* // <!-- ABOUT PROJECTS SECTION --> */}
 
+      <button href="" className="send-btn ">Descarga Mi Cv</button>
         <h3 id="tittle">MIS PROYECTOS</h3>
-
         <article className="projects" id="projects">
           <figure className="img-container">
             <a href="https://github.com/CarlosPalladino/Mercado-Liebre"> <img src="./images/Mercado-liebre.png" id="img" /> </a>
@@ -101,15 +101,7 @@ export default function App() {
             </figcaption>
           </figure>
 
-          {/* <figure className="img-container">
-            <a href="https://github.com/CarlosPalladino/learning-Django--CRUD"><img src="./images/listado.png" id="img" />
-            </a>
-            <figcaption>
-              <h4> Jardines Burbuja </h4>
-              <p> Proyecto desarrollado bajo el entorno de <b>ID for Ideas</b> realizado desde el lado back con <b>Node.js</b> y la parte front,con <b>React</b></p>
-
-            </figcaption>
-          </figure> */}
+       
           <figure className="img-container">
             <a href="https://github.com/CarlosPalladino/learning-Django--CRUD"><img src="./images/listado.png" id="img" />
             </a>
@@ -134,8 +126,11 @@ export default function App() {
               <input type="email" placeholder="Email..." className="half-input" name="email" />
             </article>
             <input type="text" placeholder="Asunto..." className="half-input" name="asunto" />
+
+
             <textarea name="mensaje" id="" cols="" rows="" placeholder="Escribe el mensaje aquí..."
               className="msg-text" />
+              
             <input type="submit" value="enviar" className="send-btn" />
             <input type="hidden" name="_captcha" value="false"></input>
           </form>

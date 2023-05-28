@@ -1,28 +1,32 @@
-#conteiner{
-    background-color: black;
-padding: 30px 0;
-margin-top: 15px;
+@media(min-width: 768px) {
 
-
-}
-#conteiner h3{
-    text-align: center;
-    color: white;
-    font-size: 1.5rem;
-}
-.contact{
-text-align: center; 
-justify-content: space-around;
+    #conteiner{
+        background-color: black;
+    padding: 30px 0;
+    margin-top: 15px;
+    
+    
     }
-#contacto{
-    width: 12%;
-    align-items: center;
-    cursor: pointer;
-    padding: 10px;
-}
-#contacto-git{
-    cursor: pointer;
-    padding: 10px;
-    width: 12%;
-    border-radius: 50%;
+    #conteiner h3{
+        text-align: center;
+        color: white;
+        font-size: 1.5rem;
+    }
+    .contact{
+    text-align: center; 
+    justify-content: space-around;
+        }
+    #contacto{
+        width: 8%;
+        align-items: center;
+        cursor: pointer;
+        padding: 10px;
+    }
+    #contacto-git{
+        cursor: pointer;
+        padding: 10px;
+        width: 8%;
+        border-radius: 50%;
+    }
+
 }
