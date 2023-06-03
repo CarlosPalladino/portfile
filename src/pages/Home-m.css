@@ -121,6 +121,17 @@ margin: 0;
   text-decoration: underline;
   text-decoration-color: #b5a4a4;
 }
+#tittle-cv{
+  text-align: center;
+  font-size: 22px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-color: #b5a4a4;
+}
+#tittle-cv a{
+  color: #111135;
+  ;
+}
 .form-container {
   margin: 2px;
 }

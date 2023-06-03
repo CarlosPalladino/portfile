@@ -77,8 +77,11 @@ export default function App() {
           </article>
         </div>
         {/* // <!-- ABOUT PROJECTS SECTION --> */}
+<h3 id="tittle-cv">
+        <a href="https://drive.google.com/file/d/1MDKonS0mc0MietH52-VFlr95zgN81nkT/view?usp=drive_link"  target="_blank"  download>Descargar mi Cv</a>
 
-      <button href="" className="send-btn ">Descarga Mi Cv</button>
+</h3>
+
         <h3 id="tittle">MIS PROYECTOS</h3>
         <article className="projects" id="projects">
           <figure className="img-container">
@@ -115,8 +118,8 @@ export default function App() {
       </div >
       {/* // <!-- CONTACT SECTION --> */}
       < article id="contact" >
-        <h3 id="tittle">Contactame</h3>
-        <p>Podes llenar el formulario y, a la brevedad ,Podemos charlar para realizar un proyecto en conjunto  </p>
+        <h3 id="tittle">Hablemos</h3>
+        <p>Podes llenar el formulario y, a la brevedad ,podemos charlar para realizar un proyecto en conjunto  </p>
         <article className="form-container">
 
           <form action="https://formsubmit.co/carlosezequielpalla@gmail.com" method="POST" target="_blank">
@@ -130,7 +133,7 @@ export default function App() {
 
             <textarea name="mensaje" id="" cols="" rows="" placeholder="Escribe el mensaje aquí..."
               className="msg-text" />
-              
+              <input type="hidden" name="_next" value="false"></input>
             <input type="submit" value="enviar" className="send-btn" />
             <input type="hidden" name="_captcha" value="false"></input>
           </form>
