@@ -42,29 +42,32 @@ export default function App() {
           <article id="hard-skills">
             <h3 id="tittle">Habilidades Fuertes </h3>
             <h4>Backend</h4>
-            <b>C#</b>
+            <p></p>
+            <b>.Net Framework</b>
             <p></p>
             <b>Node.Js</b>
             <p></p>
-            <b>Python</b>
             <h4>Base De Datos</h4>
             <b>MySql</b>
             <p></p>
-            <b>PostgreSql</b>
+            <b>PostgresSql</b>
+            <p></p>
+            <b>Sql Server</b>
             <h4>ORM</h4>
-            <b>Sequelize</b>
+            <b>Sequelize</b> <p></p>
+            <b>Entity Framework</b>
             <h4>Frontend</h4>
             <b>HTML/CSS/JS</b>
             <p>Framework: <b>React Hooks</b><p></p>
-              <b>Django</b>
               <p></p>
-              <b>.Net Framework</b>
             </p>
             <h4>Herramientas</h4>
             <b>Git/GITHUB</b>
 
             <h4>Soft Skills</h4>
-            <b>Scrum</b>
+            <b> Metodologia Scrum</b>
+            <p></p>
+            <b>Metodologia Kanban</b>
           </article>
           <article id="soft-skills">
             <h3 id="tittle">Habilidades blandas </h3>
@@ -77,10 +80,10 @@ export default function App() {
           </article>
         </div>
         {/* // <!-- ABOUT PROJECTS SECTION --> */}
-<h3 id="tittle-cv">
-        <a href="https://drive.google.com/file/d/1MDKonS0mc0MietH52-VFlr95zgN81nkT/view?usp=drive_link"  target="_blank"  download>Descargar mi Cv</a>
+        <h3 id="tittle-cv">
+          <a href="https://drive.google.com/file/d/1MDKonS0mc0MietH52-VFlr95zgN81nkT/view?usp=drive_link" target="_blank" download>Descargar mi Cv</a>
 
-</h3>
+        </h3>
 
         <h3 id="tittle">MIS PROYECTOS</h3>
         <article className="projects" id="projects">
@@ -88,8 +91,8 @@ export default function App() {
             <a href="https://github.com/CarlosPalladino/Mercado-Liebre"> <img src="./images/Mercado-liebre.png" id="img" /> </a>
             <figcaption>
               <h4>Mercado Liebre </h4>
-              <p>Este fue el primer acercamiento al mundo web. Utilicé <b>HTML, CSS </b>  hecho 
-                <b>Responsive</b> siguiendo el metodo  Mobile Mobile</p>
+              <p>Este fue el primer acercamiento al mundo web. UtilicéHTML, CSS 
+               Responsive siguiendo el metodo  Mobile Mobile</p>
             </figcaption>
           </figure>
 
@@ -98,22 +101,13 @@ export default function App() {
             </a>
             <figcaption>
               <h4> Sanitarios Nicuesa</h4>
-              <p> Es un E-COMERCE hecho en el marco de aprendizaje de Digital House, utilizamos </p>
-              <p> <b> EJS,CSS,js</b>utilizamos la metodologia<b>SCRUM</b>para poder hacer las Daily Meeting y asignarnos items a realizar
+              <p> Es un E-COMERCE hecho en el marco de aprendizaje de Digital House,  </p>
+              <p>  la metodologia SCRUM Y Kanban para poder hacer los Daily Meeting y asignarnos items a realizar
               </p>
             </figcaption>
           </figure>
 
-       
-          <figure className="img-container">
-            <a href="https://github.com/CarlosPalladino/learning-Django--CRUD"><img src="./images/listado.png" id="img" />
-            </a>
-            <figcaption>
-              <h4> Listado</h4>
-              <p> Practica realizado en el framework <b> Django</b>  y  <b> Bostrap5</b></p>
 
-            </figcaption>
-          </figure>
         </article>
       </div >
       {/* // <!-- CONTACT SECTION --> */}
@@ -133,7 +127,7 @@ export default function App() {
 
             <textarea name="mensaje" id="" cols="" rows="" placeholder="Escribe el mensaje aquí..."
               className="msg-text" />
-              <input type="hidden" name="_next" value="false"></input>
+            <input type="hidden" name="_next" value="false"></input>
             <input type="submit" value="enviar" className="send-btn" />
             <input type="hidden" name="_captcha" value="false"></input>
           </form>
